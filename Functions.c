@@ -72,6 +72,7 @@ void main()
     printf("Enter two no: ");
     scanf("%d %d",&a,&b);
     add(a,b);
+    // add(3,4,5);
     int ans=sub(a,b);
     printf("substraction is: %d",ans);
     // int ans2=mul();
@@ -80,3 +81,9 @@ void main()
     div();  
 
 }
+
+/*
+1. find factorial of a number using function
+    (4!= 4*3*2*1 =24)
+2. check number is prime or not using function.
+*/
